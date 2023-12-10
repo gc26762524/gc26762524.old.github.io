@@ -1,7 +1,7 @@
 ---
-title: "Sanders Lab - Code"
+title: "Guo Lab - Code"
 layout: textlay
-excerpt: "Sanders Lab -- Code."
+excerpt: "Guo Lab -- Code."
 sitemap: false
 permalink: /code/
 ---
@@ -67,7 +67,7 @@ The database SCN2A variants.
 
 CNVision is designed for detecting and scoring Copy Number Variants (CNVs) from Illumina SNP genotyping data. It runs in a UNIX environment and works with all Illumina chips (from 300k to latest Omni). CNVs are predicted using PennCNV, QuantiSNPv2.3, and GNOSIS (an in-built algorithm). The predicted CNVs are merged, joined (if appropriate), and scored based on the per SNP variability in the raw genotyping data. CNVision can also identify de novo CNVs in family-based data using the per SNP variability algorithm. Comparison with 1000 Genomes, the Genome Structural Variation Consortium, and replicate Illumina data demonstrates the efficacy of the CNV scoring method in both inherited and de novo CNVs.
 ​
-CNVision was written to analyze data for the Simons Simplex Collection autism data. A full description of methods are given in the following paper which can be used to reference ([Sanders et al. (2015)](https://www.ncbi.nlm.nih.gov/pubmed/26402605))
+CNVision was written to analyze data for the Simons Simplex Collection autism data. A full description of methods are given in the following paper which can be used to reference ([Guo et al. (2015)](https://www.ncbi.nlm.nih.gov/pubmed/26402605))
 
 - <a href="https://sourceforge.net/projects/cnvision/"><i class='fa fa-link'></i> Source</a>
 - <a href="https://www.ncbi.nlm.nih.gov/pubmed/26402605"><i class='fa fa-book'></i> Paper</a>
